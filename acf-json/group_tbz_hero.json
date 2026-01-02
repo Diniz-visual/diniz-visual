@@ -1,0 +1,86 @@
+{
+  "key": "group_tbz_hero",
+  "title": "Hero Slider (TBZ)",
+  "fields": [
+    {
+      "key": "field_tbz_hero_desktop",
+      "label": "Slides Desktop",
+      "name": "hero_slides_desktop",
+      "type": "repeater",
+      "layout": "row",
+      "button_label": "Adicionar slide desktop",
+      "sub_fields": [
+        {
+          "key": "field_tbz_hd_img",
+          "label": "Imagem",
+          "name": "imagem",
+          "type": "image",
+          "return_format": "array"
+        },
+        {
+          "key": "field_tbz_hd_title",
+          "label": "T\u00edtulo",
+          "name": "titulo",
+          "type": "text"
+        },
+        {
+          "key": "field_tbz_hd_text",
+          "label": "Texto",
+          "name": "texto",
+          "type": "textarea"
+        },
+        {
+          "key": "field_tbz_hd_link",
+          "label": "Link (opcional)",
+          "name": "link",
+          "type": "url"
+        }
+      ]
+    },
+    {
+      "key": "field_tbz_hero_mobile",
+      "label": "Slides Mobile",
+      "name": "hero_slides_mobile",
+      "type": "repeater",
+      "layout": "row",
+      "button_label": "Adicionar slide mobile",
+      "sub_fields": [
+        {
+          "key": "field_tbz_hm_img",
+          "label": "Imagem",
+          "name": "imagem",
+          "type": "image",
+          "return_format": "array"
+        },
+        {
+          "key": "field_tbz_hm_title",
+          "label": "T\u00edtulo",
+          "name": "titulo",
+          "type": "text"
+        },
+        {
+          "key": "field_tbz_hm_text",
+          "label": "Texto",
+          "name": "texto",
+          "type": "textarea"
+        },
+        {
+          "key": "field_tbz_hm_link",
+          "label": "Link (opcional)",
+          "name": "link",
+          "type": "url"
+        }
+      ]
+    }
+  ],
+  "location": [
+    [
+      {
+        "param": "page_type",
+        "operator": "==",
+        "value": "front_page"
+      }
+    ]
+  ],
+  "active": true
+}

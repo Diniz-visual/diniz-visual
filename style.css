@@ -1,0 +1,28 @@
+/*
+Theme Name: Tema Base Zerado (Tailwind + Bootstrap + Swiper + AJAX)
+Update URI: https://github.com/Diniz-visual/diniz-visual
+Theme URI: https://github.com/Diniz-visual/diniz-visual
+Author: Pedro (Diniz Visual)
+Description: Tema base WordPress "zerado" com TailwindCSS (build local), Bootstrap CSS, Swiper JS e base AJAX (admin-ajax.php) pronta.
+Version: 1.0.0
+Text Domain: tb-zerado
+Requires at least: 6.0
+Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Fallback mínimo caso você ainda não tenha compilado o Tailwind */
+:root{
+  --primary:#134888;
+  --accent:#00beff;
+  --text:#0f172a;
+  --muted:#475569;
+  --border:#e2e8f0;
+  --bg:#ffffff;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+img{max-width:100%;height:auto;display:block}
