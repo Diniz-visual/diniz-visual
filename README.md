@@ -35,18 +35,3 @@ Quando você mandar **“próximo passo”**, eu sigo:
 6) AJAX onde precisar (load more, filtros, busca)
 
 Me diga qual site vamos montar primeiro: **Diniz Visual** ou **Valenet**.
-
-
-## Updates via GitHub (automático)
-Este tema já vem com um updater embutido (sem plugins), apontando para o repositório:
-
-- https://github.com/Diniz-visual/diniz-visual
-
-### Para funcionar
-1) Faça **Releases** no GitHub (ex.: `v1.0.1`, `v1.0.2`...)
-2) Atualize a linha `Version:` do `style.css` para bater com a release
-3) No WordPress, vá em **Painel > Atualizações**
-
-### Dica (limite de API)
-Se começar a dar limite do GitHub, adicione no `wp-config.php`:
-`define('TBZ_GITHUB_TOKEN', 'SEU_TOKEN');`

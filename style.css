@@ -1,14 +1,15 @@
 /*
-Theme Name: Diniz Visual
-Theme URI: https://github.com/Diniz-visual/diniz-visual
-Author: Pedro Diniz
-Author URI: https://dinizvisual.com
-Description: Tema base Diniz Visual com Tailwind, Bootstrap, Swiper e AJAX
-Version: 1.1.0
+Theme Name: Tema Base Zerado (Tailwind + Bootstrap + Swiper + AJAX)
 Update URI: https://github.com/Diniz-visual/diniz-visual
-Text Domain: diniz-visual
+Theme URI: https://github.com/Diniz-visual/diniz-visual
+Author: Pedro (Diniz Visual)
+Description: Tema base WordPress "zerado" com TailwindCSS (build local), Bootstrap CSS, Swiper JS e base AJAX (admin-ajax.php) pronta.
+Version: 1.0.0
+Text Domain: tb-zerado
 Requires at least: 6.0
 Requires PHP: 7.4
+License: GPL v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 /* Fallback mínimo caso você ainda não tenha compilado o Tailwind */

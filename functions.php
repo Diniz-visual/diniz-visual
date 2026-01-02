@@ -84,5 +84,5 @@ if (!function_exists('have_rows')){
   function get_sub_field(){ return null; }
 }
 
-// GitHub Updater
+// GitHub updater (tema)
 require_once get_template_directory().'/inc/github-updater.php';
