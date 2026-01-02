@@ -50,3 +50,6 @@ Este tema já vem com um updater embutido (sem plugins), apontando para o reposi
 ### Dica (limite de API)
 Se começar a dar limite do GitHub, adicione no `wp-config.php`:
 `define('TBZ_GITHUB_TOKEN', 'SEU_TOKEN');`
+
+
+⚠️ **Atenção:** seu repositório não tem *Releases* (e pode não ter *Tags*). Para o update funcionar, crie pelo menos uma **Tag** (ex.: `v1.0.1`) ou uma **Release** com essa tag no GitHub.
